@@ -19,6 +19,12 @@ npm init -y
 
 ```
 npm install typescript
+
+$ typescript -v  // version of tsctypescript
+bash: typescript: command not found
+
+tsc --init
+bash: tsc: command not found
 ```
 
 Ця команда встановить **TypeScript** у проекті і додасть його до файлу `package.json` як залежність проекту.
@@ -31,9 +37,9 @@ npm install typescript
 npx tsc yourfile.ts
 ```
 
-Якщо встановив **TypeScript** локально в проекті, можна використовувати `npx` для запуску **TypeScript Compiler** локально.
+Якщо встановлено **TypeScript** локально в проекті, можна використовувати `npx` для запуску **TypeScript Compiler** локально.
 
-За допомогою цих кроків ви можете встановити **TypeScript** локально для конкретного проекту і користуватися його можливостями без глобального встановлення.
+За допомогою цих кроків можна встановити **TypeScript** локально для конкретного проекту і користуватися його можливостями без глобального встановлення.
 
 ## Глобальна установка
 
